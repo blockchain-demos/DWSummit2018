@@ -6,10 +6,11 @@ A "decentralized exchange" is a currency exchange which lives and is run complet
 
 The smart contract itself is run on the Ethereum Virtual Machine, which is comprised of hundreds of thousands of nodes that run independently on people's personal computers (and GPU farms!) but store every event on a public ledger. This enables a powerful platform for Investors, but also for money launderers, and "pump and dump" schemers.
 
-For this demo, we will use popular data science tools to analyze EtherDelta's books—a cryptocurrency exchange with "over 1 billion USD" worth of funds in the "smart contract"—and leverage this publicly available dataset to expose which "coin" may be associated with artificial price manipulation as it happens in near real-time.
-
 ![Volume Manipulation](./Images/anatomy_of_market_manipulation.png)
 
+For this demo, we will use popular data science tools to analyze EtherDelta's books—a cryptocurrency exchange with "over 1 billion USD" worth of funds in the "smart contract"—and leverage this publicly available dataset to expose which "coin" may be associated with artificial price manipulation as it happens in near real-time.
+
+![Architecture](./Images/pump_detector_architecture.png)
 
 # Demo Notebooks:
 - [Remote_Eth_Producer](./Remote_Eth_Producer.ipynb) - A kafka producer sending all Ethereum Transaction Logs to a topic as new blocks are added to the ethereum blokchain.
