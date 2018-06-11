@@ -10,7 +10,7 @@ The smart contract itself is run on the Ethereum Virtual Machine, which is compr
 
 For this demo, we will use popular data science tools to analyze EtherDelta's books—a cryptocurrency exchange with "over 1 billion USD" worth of funds in the "smart contract"—and leverage this publicly available dataset to expose which "coin" may be associated with artificial price manipulation as it happens in near real-time.
 
-![Architecture](./Images/pump_detector_architecture.png)
+![Architecture](./Images/architecture.png)
 
 # Demo Notebooks:
 - [Remote_Eth_Producer](./Remote_Eth_Producer.ipynb) - A kafka producer sending all Ethereum Transaction Logs to a topic as new blocks are added to the ethereum blokchain.
