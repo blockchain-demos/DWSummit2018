@@ -13,7 +13,7 @@ For this demo, we will use popular data science tools to analyze EtherDelta's bo
 ![Architecture](./Images/architecture.png)
 
 # Demo Notebooks:
-- [Remote_Eth_Producer](./Remote_Eth_Producer.ipynb) - A kafka producer sending all Ethereum Transaction Logs to a topic as new blocks are added to the ethereum blokchain.
+- [Remote_Eth_Producer](./Remote_Eth_Producer.md) - A kafka producer sending all Ethereum Transaction Logs to a topic as new blocks are added to the ethereum blokchain.
 - [Remote_ED_Processor](./Remote_ED_Processor.ipynb)
 -
 
